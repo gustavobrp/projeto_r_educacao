@@ -1,3 +1,3 @@
 # Análise de dados em Educação com R
 
-Projeto para um livro feito em bookdown para introdução à análise de dados em educação com R.
+Arquivos e materiais para tutorial de análise de dados com R Tidyverse, especialmente focado para dados educacionais.
