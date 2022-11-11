@@ -14,20 +14,14 @@ Nesse tutorial vou cobrir algumas funções do `dplyr`, pacote que faz parte do 
 
 Basicamente realizaremos três ações: **seleção, filtro, criação e transformação** de variáveis.
 
-<aside>
-💡 Para esse tutorial vamos utilizar a [base de dados do Enade 2010](https://github.com/gustavobrp/projeto_r_educacao/raw/main/bases/MICRODADOS_ENADE_2010.zip), para fins didáticos, sem qualquer tipo de tratamento. O dicionário das variáveis pode ser baixado por [aqui](https://github.com/gustavobrp/projeto_r_educacao/raw/main/bases/Dicion%C3%A1rio%20de%20vari%C3%A1veis%20dos%20Microdados%20do%20Enade_Edi%C3%A7%C3%A3o%202010.zip). A base de dados original pode ser acessada e baixada pelo site do [Inep](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade).
+> Para esse tutorial vamos utilizar a [base de dados do Enade 2010](https://github.com/gustavobrp/projeto_r_educacao/raw/main/bases/MICRODADOS_ENADE_2010.zip), para fins didáticos, sem qualquer tipo de tratamento. O dicionário das variáveis pode ser baixado por [aqui](https://github.com/gustavobrp/projeto_r_educacao/raw/main/bases/Dicion%C3%A1rio%20de%20vari%C3%A1veis%20dos%20Microdados%20do%20Enade_Edi%C3%A7%C3%A3o%202010.zip). A base de dados original pode ser acessada e baixada pelo site do [Inep](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade).
+> 
 
-</aside>
+> **Observação:** Atualmente o Inep retirou o acesso público aos microdados de várias pesquisas nacionais sobre educação. Mas a base utilizada no exemplo pode ser baixada no link acima.
+> 
 
-<aside>
-💡 **Observação:** Atualmente o Inep retirou o acesso público aos microdados de várias pesquisas nacionais sobre educação. Mas a base utilizada no exemplo pode ser baixada no link acima.
-
-</aside>
-
-<aside>
-💡 Nos exemplos apresentados utilizaremos o operador *pipe*: `%>%` do pacote `[magrittr](https://magrittr.tidyverse.org/)`.  O operador é carregado automaticamente com o `tidyverse`, o qual também carrega o `dplyr`. Esse operador facilita a análise, pois tem a grande vantagem de permitir que em poucas linhas você possa usar várias funções de maneira muito legível. O pessoal do [Curso-R](https://livro.curso-r.com/6-1-o-operador-pipe.html) tem um manual com boas explicações sobre o operador, mas em seguida vou tentar deixar evidente a sua utilidade.
-
-</aside>
+> Nos exemplos apresentados utilizaremos o operador *pipe*: `%>%` do pacote `[magrittr](https://magrittr.tidyverse.org/)`.  O operador é carregado automaticamente com o `tidyverse`, o qual também carrega o `dplyr`. Esse operador facilita a análise, pois tem a grande vantagem de permitir que em poucas linhas você possa usar várias funções de maneira muito legível. O pessoal do [Curso-R](https://livro.curso-r.com/6-1-o-operador-pipe.html) tem um manual com boas explicações sobre o operador, mas em seguida vou tentar deixar evidente a sua utilidade.
+> 
 
 ```r
 library(tidyverse)
