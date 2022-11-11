@@ -1,6 +1,6 @@
 # Trabalhando com dados usando o dplyr no R: select(), filter(), mutate() e case_when()
 
-[Gustavo Bruno de Paula](https://www.notion.so/Gustavo-Bruno-de-Paula-72a956ad82be4f12b851ef904459645b)
+[Gustavo Bruno de Paula](https://gustavobrp.github.io/)
 
 ---
 

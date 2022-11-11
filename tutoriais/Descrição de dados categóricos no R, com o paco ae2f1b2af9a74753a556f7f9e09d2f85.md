@@ -1,6 +1,6 @@
 # Descrição de dados categóricos no R, com o pacote sjPlot
 
-**[Gustavo Bruno de Paula](https://www.notion.so/Gustavo-Bruno-de-Paula-72a956ad82be4f12b851ef904459645b)**
+**[Gustavo Bruno de Paula](https://gustavobrp.github.io/)**
 
 ---
 
@@ -10,7 +10,7 @@ O R conta com algumas funções de base que permitem leituras de dados categóri
 
 Esse tutorial apresenta análises básicas com dados categóricos no R utilizando o pacote `[sjPlot](http://www.strengejacke.de/sjPlot/index.html)` que, dentre suas várias funcionalidades, permite visualizar esse tipo de informação em tabelas cruzadas com percentuais (ou tabelas de contingência), formatadas, que podem ser utilizadas diretamente para publicações. Além disso, permite algumas personalizações e exibe estatísticas prontas sobre os dados.
 
-> Para o tutorial, vamos utilizar uma versão tratada, para fins didáticos, dos [microdados do **Enade de 2010**](https://github.com/gustavobrp/projeto_r_educacao/raw/main/bases/bd_enade_2010.zip). Nela, excluí casos com poucas respostas ou informações faltantes, modifiquei algumas variáveis para fatores e criei outras para facilitar a análise. A base de dados original pode ser acessada e baixada pelo site do [Inep](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade).
+> Para o tutorial, vamos utilizar uma versão tratada, para fins didáticos, dos **[microdados do **Enade de 2010**](https://github.com/gustavobrp/projeto_r_educacao/raw/main/bases/bd_enade_2010.zip)**. Nela, excluí casos com poucas respostas ou informações faltantes, modifiquei algumas variáveis para fatores e criei outras para facilitar a análise. A base de dados original pode ser acessada e baixada pelo site do **[Inep](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade)**.
 > 
 
 > **Observação:** Atualmente o Inep retirou o acesso público aos microdados de várias pesquisas nacionais sobre educação. Mas a base utilizada no exemplo pode ser baixada no link acima.

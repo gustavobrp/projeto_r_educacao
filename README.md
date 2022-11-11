@@ -2,7 +2,7 @@
 
 Arquivos e materiais para tutorial de análise de dados com R Tidyverse, especialmente focado para análise de dados educacionais.
 
-**Capítulos**
+**Seções**
 
 [Trabalhando com dados usando o dplyr no R: select(), filter(), mutate() e case_when()](https://github.com/gustavobrp/projeto_r_educacao/blob/main/tutoriais/Trabalhando%20com%20dados%20usando%20o%20dplyr%20no%20R%20select()%20cebece9bbef5439882f11224da857d75.md)
 
